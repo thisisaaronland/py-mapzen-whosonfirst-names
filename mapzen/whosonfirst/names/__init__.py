@@ -76,9 +76,10 @@ class labels:
     def geoplanet_suffix_map(self):
 
         map = {
-            'p': 'prefered',
+            'p': 'preferred',
             's': 'colloquial',
-            'v': 'variant'
+            'v': 'variant',
+            'q': 'preferred',
         }
     
         return map
@@ -93,9 +94,17 @@ class labels:
         map = self.geoplanet_suffix_map()
 
         for k, v in map.items():
-            if v == s:
+
+            # this should never happen but measure twice and all that
+            # (20150928/thisisaaronland)
+
+            if v == s and k == 'q':
+                return 'p'
+            elif v == s:
                 return k
-                
+            else:
+                continue
+
         return "u"
 
 if __name__ == '__main__':

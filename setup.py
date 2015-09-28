@@ -8,7 +8,7 @@ desc = open("README.md").read(),
 setup(
     name='mapzen.whosonfirst.names',
     namespace_packages=['mapzen', 'mapzen.whosonfirst', 'mapzen.whosonfirst.names'],
-    version='0.01',
+    version='0.02',
     description='Python tools for working with place names in Who\'s On First data',
     author='Mapzen',
     url='https://github.com/mapzen/py-mapzen-whosonfirst-names',
@@ -19,5 +19,5 @@ setup(
     packages=packages,
     scripts=[
         ],
-    download_url='https://github.com/whosonfirst/py-mapzen-whosonfirst-names/releases/tag/v0.01',
+    download_url='https://github.com/whosonfirst/py-mapzen-whosonfirst-names/releases/tag/v0.02',
     license='BSD')
