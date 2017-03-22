@@ -24,10 +24,6 @@ setup(
     description='Python tools for working with place names in Who\'s On First data',
     author='Mapzen',
     url='https://github.com/whosonfirst/py-mapzen-whosonfirst-names',
-    install_requires=[
-        ],
-    dependency_links=[
-        ],
     packages=packages,
     scripts=[
         ],

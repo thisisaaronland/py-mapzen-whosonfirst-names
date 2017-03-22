@@ -2,6 +2,14 @@
 
 Python tools for working with place names in Who's On First data
 
+## Install
+
+```
+sudo pip install -r requirements.txt .
+```
+
+## Important
+
 _Note that as of this writing the naming conventions for `wof` data are not reflected in the [whosonfirst-data](https://github.com/whosonfirst/whosonfirst-data) repository._
 
 ## Usage
