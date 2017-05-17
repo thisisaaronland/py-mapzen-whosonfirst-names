@@ -25,17 +25,17 @@ names = ("fin_p", "eng_s", "unk_v")
 for n in names:
 	print n
 
-        n2 = lbl.convert(n, 'geoplanet', 'wof')
-        print n2
+	n2 = lbl.convert(n, 'geoplanet', 'wof')
+	print n2
 
-        n3 = lbl.convert(n2, 'wof', 'subtags')
-        print n3
+	n3 = lbl.convert(n2, 'wof', 'subtags')
+	print n3
 
-        n4 = lbl.convert(n3, 'subtags', 'wof')
-        print n4
+	n4 = lbl.convert(n3, 'subtags', 'wof')
+	print n4
 
-        n5 = lbl.convert(n4, 'wof', 'geoplanet')
-        print n5
+	n5 = lbl.convert(n4, 'wof', 'geoplanet')
+	print n5
 ```
 
 Would yield:
